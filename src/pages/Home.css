@@ -1,0 +1,35 @@
+/* HomeStyles.css */
+
+.home {
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .headerContainer {
+    color: #fff;
+  }
+  
+  /* Add media query for small screens */
+  @media only screen and (max-width: 600px) {
+    .headerContainer {
+      padding: 20px;
+    }
+    
+    h1 {
+      font-size: 24px;
+    }
+    
+    p {
+      font-size: 14px;
+    }
+  
+    button {
+      font-size: 12px;
+    }
+  }
+  
